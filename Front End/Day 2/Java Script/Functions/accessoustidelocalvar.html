@@ -5,21 +5,22 @@
 	
 	<body>
 		<script>
-            
-            
-            function outer()
-            {
-                var data="hello word"
-                function inner()
-                {
-                    alert("inner "+data); 
-                }
-                return inner;
-            }      
-            test=outer();    
-            test();
-            test();
 
+            function hi()
+            {
+                var count =0;
+                function a() 
+                {
+                    alert(++count);
+                }
+                return a;
+            }      
+
+           hello=hi();
+
+           dep=; 
+           hello();
+           hello();
 		</script>
 	</body>
 </html>
