@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>Mahendra</title>
+	</head>
+	
+	<body>
+		<script>
+            
+            function outer()
+            {
+                alert("outer Function");
+                function inner()
+               {
+                   alert("inner Function");
+               }
+               return inner;
+            }
+            test=outer();
+            test(); // outpur : inner Function      
+
+		</script>
+	</body>
+</html>
