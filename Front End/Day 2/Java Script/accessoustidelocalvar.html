@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>Mahendra</title>
+	</head>
+	
+	<body>
+		<script>
+            
+            
+            function outer()
+            {
+                var data="hello word"
+                function inner()
+                {
+                    alert("inner "+data); 
+                }
+                return inner;
+            }      
+            test=outer();    
+            test();
+            test();
+
+		</script>
+	</body>
+</html>
